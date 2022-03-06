@@ -24,3 +24,18 @@ This is not Manjaro software, just some tweaks to make your life easier
 > 3. Click on your account ![Screenshot_20220227_105101](https://user-images.githubusercontent.com/77334306/155873573-b94094c8-ee2c-4264-90f3-c6248cae1eaf.png)
 
 > 4. Click on your avatar and select picture
+
+# Installing MultiMC Minecraft Instance Launcher for Manjaro GNU/LINUX
+
+> 1. mkdir multimc-pkgbuild
+> 2. cd multimc-pkgbuild
+> 3. wget https://raw.githubusercontent.com/MultiMC/multimc-pkgbuild/master/PKGBUILD
+> 4. makepkg -si
+> 5. Press `Meta` button (like Microsoft Windows button) and type `Multimc` in search area
+
+# Manjaro KDE Rare Bug | Mouse freezed at one position X,Y on monitor and doesn't react
+
+### Easy fix
+> 1. Press `L.CTRL` button + `F1 --> F2` buttons
+> 2. Enjoy!
+
