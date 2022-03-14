@@ -35,7 +35,8 @@ This is not Manjaro software, just some tweaks to make your life easier
 
 # Manjaro KDE Rare Bug | Mouse freezed at one position X,Y on monitor and doesn't react
 
-### Easy fix
+### Easy fix (Works 9 times out of 10)
 > 1. Press `L.CTRL` button + `F1 --> F2` buttons
+> 1.1 If `1` point doesn't work, try push `ESCAPE/CTRL/ENTER` buttons
 > 2. Enjoy!
 
