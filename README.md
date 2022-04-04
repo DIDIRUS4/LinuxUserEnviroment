@@ -1,3 +1,15 @@
+# Linux User Enviroment
+- Useful commands and packages for make your life easier in Linux
+
+### Useful Packages/Cmds
+- Installing CloudFlare Warp-Client from AUR
+> 1. Install `cloudflare-warp-bin`
+> 2. Open terminal
+> 3. Write in terminal: `sudo systemctl enable warp-svc.service && sudo systemctl start warp-svc.service && sudo systemctl status warp-svc.service` ![Screenshot_20220404_162441](https://user-images.githubusercontent.com/77334306/161553603-87824823-4b8d-4f26-8655-feea67978f60.png)
+> 4. Great! Try it for yourself `warp-cli --help` (For example, let's try connect via WARP+DOH (Translate: Proxy tunnel + 1.1.1.1 DNS CF Servers)
+> Write this commands `warp-cli set-mode warp+doh && warp-cli -l connect && warp-cli network` Enjoy! Another Information search in `warp-cli --help`
+
+
 # ManjaroLifeHacks
 This is not Manjaro software, just some tweaks to make your life easier
 
