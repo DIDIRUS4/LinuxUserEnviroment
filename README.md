@@ -52,3 +52,7 @@ This is not Manjaro software, just some tweaks to make your life easier
 > 1.1 If `1` point doesn't work, try push `ESCAPE/CTRL/ENTER` buttons
 > 2. Enjoy!
 
+# Manjaro KDE Connect FIX with UFW
+> 1. Open terminal
+> 2. Input `sudo ufw allow 1714:1764/udp && sudo ufw allow 1714:1764/tcp`
+> 3. Enjoy!
