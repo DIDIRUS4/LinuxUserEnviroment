@@ -45,14 +45,13 @@ This is not Manjaro software, just some tweaks to make your life easier
 > 4. makepkg -si
 > 5. Press `Meta` button (like Microsoft Windows button) and type `Multimc` in search area
 
-# Manjaro KDE Rare Bug | Mouse freezed at one position X,Y on monitor and doesn't react
+# Manjaro Plasma Rare Bug | Mouse freezed at one position X,Y on monitor and doesn't react
+### ~~Easy fix (Works 9 times out of 10)~~ Fixed in latest Manjaro Releases
+> ~~1. Press `L.CTRL` button + `F1 --> F2` buttons~~
+> ~~1.1 If `1` point doesn't work, try push `ESCAPE/CTRL/ENTER` buttons~~
+> ~~2. Enjoy!~~
 
-### Easy fix (Works 9 times out of 10)
-> 1. Press `L.CTRL` button + `F1 --> F2` buttons
-> 1.1 If `1` point doesn't work, try push `ESCAPE/CTRL/ENTER` buttons
-> 2. Enjoy!
-
-# Manjaro KDE Connect FIX with UFW
-> 1. Open terminal
-> 2. Input `sudo ufw allow 1714:1764/udp && sudo ufw allow 1714:1764/tcp`
+# [KDE Connect](https://kdeconnect.kde.org/) ~~FIX~~ allow input/output connection with UFW
+> 1. Open your Terminal (bash, zsh)
+> 2. Insert command line `sudo ufw allow 1714:1764/udp && sudo ufw allow 1714:1764/tcp`
 > 3. Enjoy!
