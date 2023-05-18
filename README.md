@@ -57,7 +57,7 @@ This is not Manjaro software, just some tweaks to make your life easier
 > 3. Enjoy!
 
 # Fix Noto Sans Emoji on Arch based distributions
-> 1. For example uncorrent view emoji in Discord Application. Open terminal as sudo.
+> 1. For example incorrect view emoji in Discord Application. Open terminal as sudo.
 > 2. `sudo pacman -S noto-fonts-emoji`
 > 3. `sudo fc-cache -fv` or `reboot` your linux system.
 > 4. Enjoy with fixed emojiiiiii ^u^
