@@ -65,6 +65,6 @@ This is not Manjaro software, just some tweaks to make your life easier
 # Fix Bluetooth audio in Minecraft on Linux (Ubuntu/Arch)
 > 1. Open Terminal
 > 2. 2.0 For Ubuntu: `sudo vim /etc/openal/alsoft.conf` 
-> 3. 2.1 For Arch: `sudo vim /usr/share/openal/alsoftrc.sample`
-> 4. Find `# drivers =` and replace with `drivers = alsa`
+> 3. 2.1 For Arch: `sudo vim /etc/xdg/alsoft.conf`
+> 4. Find `# drivers =` and replace with `drivers = alsa` in 2.1 point you need to create alsoft.conf and write `drivers = alsa`
 > 5. It works fine on Pop! Os (Based on Ubuntu) and Arch based System like Endeavour OS. It's should be works on any Ubuntu/Arch based systems.
